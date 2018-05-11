@@ -167,6 +167,7 @@
                   </systemProperties>
                   <argLine>
                     -javaagent:"${settings.localRepository}/org/aspectj/aspectjweaver/${aspectj.version}/aspectjweaver-${aspectj.version}.jar"
+                    -Xmx1024m -XX:MaxPermSize=256m
                   </argLine>
                   <failIfNoTests>true</failIfNoTests>
                 </configuration>
