@@ -31,6 +31,6 @@ public class MapStepDefs {
     @Step
     @And("^I should see the address \"([^\"]*)\"$")
     public void i_should_see_the_address(String address) throws Throwable {
-        assertThat(new MapInfoPane().get().getAddress()).isEqualTo(address);
+        assertThat(new MapInfoPane().get().getAddress()).contains(address);
     }
 }
