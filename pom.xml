@@ -8,7 +8,7 @@
   <version>2.4.2-BDD</version>
 
   <properties>
-    <aspectj.version>1.8.10</aspectj.version>
+    <aspectj.version>1.8.13</aspectj.version>
     <!-- Default - can be overridden by -Dthreads=n at maven cmd line -->
     <threads>1</threads>
     <!-- Default - can be overridden by -Dtags="@Blah" at maven cmd line -->
